@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dojonary</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@200&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="navbar_background">
+    </div>
+    <div class="container">
+        <div class="navbar">
+            <div class="navbar_left">
+                <h1>Dojonary</h2>
+            </div>
+            <div class="navbar_center">
+                <input type="text" placeholder="Search" name="fname" size="40">
+            </div>
+            <div class="navbar_right">
+                <Button class=button1 onclick="login(this)">Login</Button>
+            </div>
+        </div>
+        <div class="mainbox">
+            <div class="col1">
+                <div class="box1">
+                    <div class="box1left">
+                        <h1>ninja</h1>
+                        <p class="line1"><em>noun</em></p>
+                        <p class="line2">Plural: <em>ninjas</em></p>
+                        <Button class="button3" onclick="alert('Ninja was liked')">37 likes</Button>
+                    </div>
+                    <div class="box1right">
+                        <p class="definition">A <a href=#>programmer</a> who breaks down problems with <a href=#>zen</a>-like focus</p>
+                    </div>
+                </div>
+                <div class="box1">
+                    <div class="box1left">
+                        <h1>ninja</h1>
+                        <p class="line1"><em>noun</em></p>
+                        <p class="line2">Plural: <em>ninjas</em></p>
+                        <Button class="button3" onclick="alert('Ninja was liked')">13 likes</Button>
+                    </div>
+                    <div class="box1right">
+                        <p class="definition">A practitioner skilled in the <a href=#>Japanese</a> art of <a href=#>ninjutsu</a></p>
+                    </div>
+                </div>
+            </div>
+            <div class="col2">
+                <div class="box2">
+                    <div class="box2top">
+                        <p class="dojonary">Dojonary is defined by <strong>YOU</strong></p>
+                    </div>
+                    <div class="box2bottom">
+                        <Button class="button2" onclick="hide(this)">Add Definition</Button>
+                    </div>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
